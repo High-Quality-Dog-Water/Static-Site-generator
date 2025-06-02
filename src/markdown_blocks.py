@@ -51,6 +51,7 @@ def block_to_block_type(block):
         return BlockType.OLIST
     return BlockType.PARAGRAPH
 
+
 def markdown_to_html_node(markdown):
     blocks = markdown_to_blocks(markdown)
     children = []
